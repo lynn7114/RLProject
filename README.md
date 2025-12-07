@@ -88,8 +88,8 @@ pip install gymnasium numpy pandas torch typer seaborn
 
 - 다중 시드: [0, 23, 147, 575, 2768]를 random number generator seed로 만들어서 편향을 줄임
 - 주요 지표: 각 알고리즘별 평균 점수와 95% 신뢰 구간을 계산함
-- 시각화: CI를 포함한 막대 차트 및 학습 곡선 생성
+- 시각화: \plots 폴더에 CI를 포함한 막대 차트 및 학습 곡선 생성
 
 ## 결과 요약
 
-- 세 모델 중 PPO가 가장 성능이 좋았다. 
+- 세 모델 중 PPO가 가장 성능이 좋았다. DQN은 낮은 성능을 보였고, A2C는 학습률을 낮게 잡았을 때 성능이 높았다. 
